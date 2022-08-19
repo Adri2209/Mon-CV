@@ -1,0 +1,230 @@
+html {
+    background-color: #939796;
+}
+
+body {
+    width: 98%;
+    background-color: #939796;
+    margin: auto;
+}
+
+.navbar {
+    background-color: black !important;
+    margin-top: 30px;   
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.presentation {
+    background-color: black;
+    margin-top: 30px;
+    align-items: flex-start;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+
+}
+
+.competence {
+    background-color: black;
+    margin-top: 30px;
+    align-items: flex-start;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.tableau-competences {
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#cercleun {
+    width: 150px;
+    height: 150px;
+    background-color: #939796;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    border: solid blue 10px;
+}
+
+#cercledeux {
+    width: 150px;
+    height: 150px;
+    background-color: #939796;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    border: solid green 10px;
+}
+
+#cercletrois {
+    width: 150px;
+    height: 150px;
+    background-color: #939796;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    border: dotted orange 10px;
+}
+
+.diplomes {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.diplome-detail {
+    margin-top: 20px;
+    background-color: #939796;
+    width: 96%;
+    margin-bottom: 20px;
+   
+}
+.portfolio{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.portfolio-exemple{
+    margin-top: 20px;
+    background-color: #939796;
+    width: 96%;
+    margin-bottom: 20px;
+}
+.experience{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.timeline {
+    background-color: #939796;
+    margin: 20px auto;
+    padding: 30px;
+    width: 96%;
+  
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 3px solid black;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 10px 30px;
+    padding: 10px;
+    background-color: #939796;
+    color:white;
+    
+    max-width: 400px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Title of the card */
+  .title {
+    color:white;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -75px;
+    border: 20px solid green;
+  }
+
+  .red::before {
+    border: 20px solid red;
+  }
+  .orange::before {
+    border: 20px solid orange;
+  }
+  .bleu::before {
+    border: 20px solid blue;
+  }
+  .yellow::before {
+    border: 20px solid yellow;
+  }
+  .loisir{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+  .loisir-photo{
+    margin-top: 20px;
+    background-color: #939796;
+    width: 96%;
+    margin-bottom: 20px;
+  }
+  .contact{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+  .message{
+    margin-top: 20px;
+    background-color: #939796;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .button{
+    margin-top: 20px;
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .image{
+    margin-right: 20px;
+  }
+  .footer{
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+  }
+  .img{
+    padding-top: 20px;
+  }
+  .imgsport{
+    padding-top: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+

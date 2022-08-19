@@ -1,0 +1,20 @@
+{% extends "./main.twig" %}
+
+{% block main %}
+	<form action="/addProject" method="post" enctype="multipart/form-data">
+		<div class="mb-3">
+			<label for="exampleName" class="form-label">Titre</label>
+			<input type="text" class="form-control" id="exampleName" name="name" aria-describedby="examleNom">
+		</div>
+		<div class="mb-3">
+			<label for="exampleImage" class="form-label">Image</label>
+			<input type="file" class="form-control" id="exampleImage" name="image">
+		</div>
+		<div class="mb-3">
+			<label for="exampleLien" class="form-label">Lien github</label>
+			<input type="text" class="form-control" id="exampleLien" name="githubLink" aria-describedby="exampleLien">
+		</div>
+		<button type="submit" class="btn btn-primary" id="submitProject">Submit</button>
+	</form>
+
+{% endblock %}

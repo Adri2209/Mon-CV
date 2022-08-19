@@ -1,0 +1,16 @@
+
+
+{% block main %}
+			{% for project in projects %}
+				<div class="card col-4 offset-6 m-4 mx-auto" style="width: 18rem;">
+					<img class="card-img-top" src="uploads/images/{{project.image}}" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">{{project.name}}</h5>
+						<div>
+                            <a href="{{project.githubLink}}">Lien github</a>
+                        </div>
+					</div>
+				</div>
+			{% endfor %}
+
+{% endblock %}
