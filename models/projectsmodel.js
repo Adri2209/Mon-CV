@@ -12,6 +12,10 @@ const projectSchema = new mongoose.Schema({
         type: String,
         required: [true, "lien obligatoire"]
     },
+    projectlink: {
+        type: string,
+        require: [true, "lien obligatoire"]
+    }
   
 })
 
