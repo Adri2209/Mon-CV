@@ -20,7 +20,7 @@ router.use(cvRouter)
 
 app.listen(process.env.PORT, (error) => {
   if (error) {
-    console.log("error");
+    console.log(error);
   } else {
     console.log(`Connected at ${process.env.APP_URL}`);
   }
@@ -28,7 +28,7 @@ app.listen(process.env.PORT, (error) => {
 
 mongoose.connect(db, function (error) {
   if (error) {
-    console.log("error");
+    console.log(error);
   } else {
     console.log("connected to database mongodb (MON SUPER CV )");
   }
